@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../public/images/bg-sea.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: 1;
+}
+
+.fieldset-signup {
+    z-index: 2;
+    width: 25%;
+    height: 50%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.signup-form {
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+
+div > input, div > button {
+    border-radius: 2px;
+    padding-left: 2px;
+    height: 20px;
+}
+.register-btn { 
+    width: 4.5rem;
+    height: 1.5rem;
+}
+.register-btn:hover {
+    filter: invert(1);
+}

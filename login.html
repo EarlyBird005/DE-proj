@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<!-- TODO:
+add logo which help to go to the home page 
+-->
+
+<body>
+    <div class="container">
+        <fieldset class="fieldset-login">
+            <legend>Log In</legend>
+            <form method="POST" class="login-form" id="login-form">
+                <div>
+                    <div>
+                        <label for="userName">Username:</label>
+                    </div>
+                    <input type="text" name="userName" id="userName" />
+                </div>
+                <div>
+                    <div>
+                        <label for="password">Password:</label>
+                    </div>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div>
+                    <button type="submit" id="login-btn" class="login-btn">Login</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <script src="./js/logIn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/signUp.css">
+</head>
+
+<!-- TODO:
+add logo which help to go to the home page 
+-->
+
+<body>
+    <main>
+        <div class="container">
+            <fieldset class="fieldset-signup">
+                <legend >Sign Up</legend>
+                <form  method="POST" class="signup-form" id="signup-form" autocomplete="off">
+                    <div>
+                        <div>
+                            <label for="userName">Username:</label>
+                        </div>
+                        <input type="text" name="userName" id="userName" />
+                    </div>
+                    <div>
+                        <div>
+                            <label for="firstName">First name:</label>
+                        </div>
+                        <input type="text" name="firstName" id="firstName" />
+                    </div>
+                    <div>
+                        <div>
+                            <label for="lastName">Last name:</label>
+                        </div>
+                        <input type="text" name="lastName" id="lastName" />
+                    </div>
+                    <div>
+                        <div>
+                            <label for="mobileNumber">Mobile Number:</label>
+                        </div>
+                        <input type="tel" name="mobileNumber" id="mobileNumber" maxlength="10" />
+                    </div>
+                    <div>
+                        <div>
+                            <label for="email">Email:</label>
+                        </div>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div>
+                        <div>
+                            <label for="password">Password:</label>
+                        </div>
+                        <input type="password" name="password" id="password" />
+                    </div>
+                    <!-- moght needed 
+                    <div>
+                        <div><label for="role">Role:</label></div>
+                        <input type="" name="role" id="role" /> 
+                        <select value="role" id="role">
+                            <option>User</option>
+                            <option>Admin</option>
+                        </select>
+                    </div> -->
+                    <div>
+                        <button type="submit" id="register-btn" class="register-btn">Register</button>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <script src="./js/signup.js"></script>
+</body>
+
+</html>
