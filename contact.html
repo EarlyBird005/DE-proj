@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/utility.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/contact.css">
 </head>
 
@@ -14,7 +15,7 @@
     <header>
         <nav class="navBar">
             <div class="logo">
-                <img class="block" src="" alt="logo" />
+                <a href="/"><img class="logo-img" src="" alt="logo" /></a>
             </div>
             <div class="nav-search">
                 <img src="./public/svg/search-icon.svg" alt="SVG" />
@@ -22,7 +23,7 @@
             </div>
             <div class="navLink">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/" value="home">Home</a></li>
                     <!-- TODO: User Profile Icon when login instead of SIgnup/login-->
                     <li><a href="signup.html">Signup</a><a href="login.html">/Login</a></li>
                     <li><a href="about.html">About</a></li>
@@ -35,24 +36,24 @@
     </header>
 
     <main>
-        <form action="" class="contact-form border">
+        <form method="POST" class="contact-form" id="contact-form">
             <div class="form-div1">
-                <label for="name">Name</label>
                 <div>
-                    <input type="text" for="name" name="name" title="name" placeholder="Enter your name" />
+                    <label for="name">Name</label>
                 </div>
+                <input type="text" id="name" name="name" title="name" placeholder="Enter your name" />
             </div>
             <div class="form-div2">
-                <label for="email">Email</label>
                 <div>
-                    <input type="text" for="email" name="email" title="email" placeholder="Enter your email" />
+                    <label for="email">Email</label>
                 </div>
+                <input type="text" id="email" name="email" title="email" placeholder="Enter your email" />
             </div>
             <div class="form-div3">
-                <label for="message">Message</label>
                 <div>
-                    <textarea class="message" name="message" id="message" placeholder="Enter your message"></textarea>
+                <label for="message">Message</label>
                 </div>
+                    <textarea class="message" name="message" id="message" placeholder="Enter your message"></textarea>
             </div>
             <div class="form-div4">
                 <!-- <input type="button" value=""> -->
@@ -61,6 +62,7 @@
         </form>
     </main>
 
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>

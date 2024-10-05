@@ -1,49 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    /* TODO: change color from online gradient*/
-    background-color: rgba(205, 179, 130, 0.721);
-}
-a {
-    text-decoration: none;
-}
-a:visited, a {
-    color:cornflowerblue;
-}
-
-.border {
-    border: 1px solid black;
-}
-.border-red {
-    border: 2px solid red;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*----------------------------- header css -----------------------------*/
 .navBar {
-    margin-top: 10px;
-    width: 90%;
+    /* padding: 10px; */
+    margin: 10px 5px 10px 5px;
     display: flex;
     justify-content: space-between;
 }
-
 .logo {
     width: 110px;
     align-self: center;
     text-align: center;
 }
+.logo a {
+    color: black;
+}
+.nav-search {
+    width: 210px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-search > img {
+    height: 25px;
+}
+.nav-search input{
+    padding: 2px;
+    background-color: #CCD0CF;
+    border-radius: 0.7rem;
+}
 .navLink {
-    width: 30%;
+    padding: 10px;
 }
 .navLink ul {
-    /* width: 40%; */
+    width: 300px;
     display: flex;
+    /* padding: 0px 5px auto; */
     list-style-type: none;
     justify-content: space-between;
 }
+/* 
+ul li a{
+    text-decoration: none;
+}
+hr{
+    border-color: black;
+} 
+*/

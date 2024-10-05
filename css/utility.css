@@ -5,11 +5,28 @@
 }
 
 /* tag selector */
-body {
+.body {
     /* TODO: change color from online gradient*/
     background-color: rgba(205, 179, 130, 0.721);
 }
-
+legend {
+    background-color: #06141B;
+    color: #fff;
+    padding: 3px 6px;
+}
+a {
+    color:#06141B;
+    text-decoration: none;
+}
+a:visited {
+    color:#06141B;
+}
+main {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* temp */
 .border {
     border: 1px solid black;
@@ -18,8 +35,3 @@ body {
     border: 2px solid red;
 }
 
-legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
-}

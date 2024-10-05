@@ -1,0 +1,25 @@
+/* tag selector */
+body {
+    background-color: #4A5C6A;
+}
+ul li a{
+    text-decoration: none;
+}
+hr{
+    border-color: black;
+}
+
+
+
+
+/*----------------------------- main css -----------------------------*/
+main {
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-main {
+    width: 90%;
+    height: 40vw;
+}
