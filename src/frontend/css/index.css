@@ -9,8 +9,11 @@ hr{
     border-color: black;
 }
 
-
-
+header {
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    padding: 0;
+    
+}
 
 /*----------------------------- main css -----------------------------*/
 main {

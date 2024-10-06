@@ -1,7 +1,7 @@
 /*----------------------------- header css -----------------------------*/
 .navBar {
-    /* padding: 10px; */
-    margin: 10px 5px 10px 5px;
+    padding: 10px 5px;
+    /* margin: 10px 5px; */
     display: flex;
     justify-content: space-between;
 }
@@ -9,19 +9,27 @@
     width: 110px;
     align-self: center;
     text-align: center;
+    position: relative;
+    left: 100px;
 }
 .logo a {
     color: black;
+}
+.logo img {
+    /* width: 70px; */
+    width: 1rem;
 }
 .nav-search {
     width: 210px;
     display: flex;
     gap: 5px;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 .nav-search > img {
     height: 25px;
+    position: relative;
+    top: 8px;
 }
 .nav-search input{
     padding: 2px;
