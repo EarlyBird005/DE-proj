@@ -23,39 +23,45 @@ add logo which help to go to the home page
                         <div>
                             <label for="userName">Username:</label>
                         </div>
-                        <input type="text" name="userName" id="userName" />
+                        <input type="text" name="userName" id="userName" maxlength="50" required/>
                     </div>
                     <div>
                         <div>
                             <label for="firstName">First name:</label>
                         </div>
-                        <input type="text" name="firstName" id="firstName" />
+                        <input type="text" name="firstName" id="firstName" maxlength="50" required/>
                     </div>
                     <div>
                         <div>
                             <label for="lastName">Last name:</label>
                         </div>
-                        <input type="text" name="lastName" id="lastName" />
+                        <input type="text" name="lastName" id="lastName" maxlength="50" required/>
                     </div>
                     <div>
                         <div>
                             <label for="mobileNumber">Mobile Number:</label>
                         </div>
-                        <input type="tel" name="mobileNumber" id="mobileNumber" maxlength="10" />
+                        <input type="tel" name="mobileNumber" id="mobileNumber" maxlength="10" pattern="[0-9]{10}" required/>
                     </div>
                     <div>
                         <div>
                             <label for="email">Email:</label>
                         </div>
-                        <input type="email" name="email" id="email" />
+                        <input type="email" name="email" id="email" required/>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="zipCode">Zipcode/Pincode:</label>
+                        </div>
+                        <input type="zipCode" name="zipCode" id="zipCode" minlength="6" required/>
                     </div>
                     <div>
                         <div>
                             <label for="password">Password:</label>
                         </div>
-                        <input type="password" name="password" id="password" />
+                        <input type="password" name="password" id="password" required/>
                     </div>
-                    <!-- moght needed 
+                    <!-- might needed 
                     <div>
                         <div><label for="role">Role:</label></div>
                         <input type="" name="role" id="role" /> 

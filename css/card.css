@@ -1,28 +1,17 @@
+main {
+    margin: 0px;
+}
 .container-card {
-    width: 80%;
+    width: 100%;
     height: 630px;
-    /* margin-top: 5px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: max-content;
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 30px 15px;
 }
 
-#card-1 {
-    width: 20%;
-    height: 200px;
-}
-
-#card-2 {
-    width: 20%;
-    height: 200px;
-}
-
-#card-3 {
-    width: 20%;
-    height: 200px;
-}
-
-#card-4 {
-    width: 20%;
-    height: 200px;
+.img-container {
+    height: 170px;
 }

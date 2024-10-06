@@ -26,9 +26,10 @@
 .fieldset-signup {
     z-index: 2;
     width: 25%;
-    height: 50%;
-    padding-top: 5px;
-    padding-left: 10px;
+    height: 57%;
+    padding: 5px;
+    position: relative;
+    bottom: 45px;
 }
 
 .signup-form {

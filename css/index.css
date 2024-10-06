@@ -22,4 +22,6 @@ main {
 .container-main {
     width: 90%;
     height: 40vw;
+    min-width: max-content;
+    min-height: max-content;
 }
