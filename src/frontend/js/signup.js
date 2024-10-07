@@ -1,6 +1,7 @@
 // const fs = require("fs");
 const registern_btn = document.getElementById("register-btn");
 
+
 registern_btn.onclick = (e) => {
     e.preventDefault();
     console.log("onclick called");
@@ -14,6 +15,8 @@ registern_btn.onclick = (e) => {
 
     // fs.writeFile("Register.txt", `username: {username}`);
     alert(`Registered successfully!\nUsername: ${userName}\nFirst Name: ${firstName}\nLast Name: ${lastName}\nMobile: ${mobileNumber}\nEmail: ${email}\nZip Code: ${zipCode}`);
+
+//  TODO: check all the validation then store data in Register.txt
 
     // Register user data storing
     const data = {
@@ -57,6 +60,5 @@ registern_btn.onclick = (e) => {
     //     console.error(error);
     //     alert("An error occurred during registration.");
     // });
-    console.log("post method end");
 };
 
