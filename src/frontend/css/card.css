@@ -8,11 +8,24 @@ main {
     min-height: max-content;
     min-width: max-content;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
     gap: 30px 15px;
 }
 
-.img-container {
-    height: 170px;
+.card-item {
+    border-radius: 10px;
+}
+
+.pg-img {
+    height: 140px;
+    border-radius: inherit;
+}
+
+.pg-address, .pg-timing, .pg-contact {
+    text-align: left;
+}
+
+.pg-address p {
+    width: 280px;
 }

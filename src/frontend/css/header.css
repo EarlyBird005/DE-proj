@@ -10,14 +10,16 @@
     align-self: center;
     text-align: center;
     position: relative;
-    left: 100px;
+    left: 80px;
 }
 .logo a {
     color: black;
 }
 .logo img {
-    /* width: 70px; */
-    width: 1rem;
+    width: 140%;
+    /* height: 100%; */
+    object-fit: contain;
+    object-position: bottom;
 }
 .nav-search {
     width: 210px;
