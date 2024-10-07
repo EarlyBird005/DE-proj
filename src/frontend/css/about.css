@@ -1,3 +1,15 @@
+.container-about {
+    width: 85%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
 
-
-
+/* 
+dd {
+    margin-top: 20px;
+    margin-left: 40px;
+} */

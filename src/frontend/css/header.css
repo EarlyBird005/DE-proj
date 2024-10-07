@@ -6,17 +6,18 @@
     justify-content: space-between;
 }
 .logo {
-    width: 110px;
+    width: 35%;
     align-self: center;
     text-align: center;
     position: relative;
-    left: 80px;
+    /* left: 80px; */
 }
 .logo a {
     color: black;
+    width: inherit; /* to give inherited width to the header logo */
 }
-.logo img {
-    width: 140%;
+.logo img, #footer-logo {
+    width: inherit;
     /* height: 100%; */
     object-fit: contain;
     object-position: bottom;
@@ -42,10 +43,6 @@
     padding: 10px;
 }
 .navLink ul {
-    width: 300px;
-    display: flex;
-    /* padding: 0px 5px auto; */
-    list-style-type: none;
     justify-content: space-between;
 }
 /* 

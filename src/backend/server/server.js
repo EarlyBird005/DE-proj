@@ -103,7 +103,6 @@ const playgroundDetails = [
     }
 ];
 
-
 // http://localhost:3000/api/playground/#{id})
 app.get('/api/playground/:id', (req, res) => {
     const id = parseInt(req.params.id);

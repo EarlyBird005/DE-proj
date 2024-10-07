@@ -15,6 +15,9 @@ main {
 
 .card-item {
     border-radius: 10px;
+    display: flex;
+    gap: 7px 0px;
+    flex-direction: column;
 }
 
 .pg-img {
@@ -24,6 +27,7 @@ main {
 
 .pg-address, .pg-timing, .pg-contact {
     text-align: left;
+    margin-left: 10px;
 }
 
 .pg-address p {
