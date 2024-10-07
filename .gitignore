@@ -1,2 +1,6 @@
 src/backend/server/node_modules
 .vscode/settings.json
+Z_header.css
+Z_header.html
+src/backend/server/sub_server.js
+src/backend/server/storeData.js

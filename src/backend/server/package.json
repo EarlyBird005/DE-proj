@@ -8,13 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "backend": "nodemon server.js",
     "frontend": "cd ../../../ && live-server --port=5501 --open=./src/frontend/index.html",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "frontend-signUp": "cd ../../../ && live-server --port=5501 --open=./src/frontend/signUp.html",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "register": "concurrently \"npm run backend\" \"npm run frontend-signUp\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.0",
+    "path": "^0.12.7",
     "server": "file:"
   },
   "devDependencies": {

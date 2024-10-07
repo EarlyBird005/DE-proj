@@ -18,17 +18,17 @@
     background-color: rgba(205, 179, 130, 0.721);
 }
 legend {
-    /* background-color: #06141B; */
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-color: #06141B;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     color: #fff;
     padding: 3px 6px;
 }
 a {
-    color:#06141B;
+    color: #410444;
     text-decoration: none;
 }
 a:visited {
-    color:#06141B;
+    color: #410444;
 }
 main {
     /* padding-top: 15px; */
