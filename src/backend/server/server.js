@@ -105,19 +105,13 @@ app.get('/api/playground/:id', (req, res) => {
 });
 
 // API for storing data
-const filePath = path.join(__dirname, '../../../Register.txt');
-fs.appendFile(filePath, "User Details:\n", (err) => {
-    if (err) {
-        console.error("Failed to save data", err);
-        return res.status(500).send("An error occurred.");
-    }
-} );
-
+// http://localhost:3000/api/register)
 app.post("/api/register", (req, res) => {
     const { userName, firstName, lastName, mobileNumber, email, zipCode, password } = req.body;
     console.log("POST /api/register called");
     
-    const data = `Username: ${userName}\nFirst Name: ${firstName}\nLast Name: ${lastName}\nMobile Number: ${mobileNumber}\nEmail: ${email}\nZip Code: ${zipCode}\nPassword: ${password}\n\n`;
+    const data = `User Details:\nUsername: ${userName}\nFirst Name: ${firstName}\nLast Name: ${lastName}\nMobile Number: ${mobileNumber}\nEmail: ${email}\nZip Code: ${zipCode}\nPassword: ${password}\n\n`;
+    const filePath = path.join(__dirname, '../../../Register.txt');
 
     // fs.appendFile(filePath, "User Detail:")
     fs.appendFile(filePath, data, (err) => {
