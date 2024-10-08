@@ -55,6 +55,10 @@ hr{
 */
 
 /*----------------------------- footer css -----------------------------*/
+.footer-bottom {
+    /* position: relative; */
+    margin-top: auto;
+}
 .footer {
     display: flex;
     justify-content: center;
