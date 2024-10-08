@@ -83,8 +83,16 @@ textarea {
     position: absolute;
     width: inherit;
     height: inherit;
-    background-image: url(../../../public/images/bg-sea.png);
+    /* background-image: url(../../../public/images/bg-sea.png); */
     background-size: auto;
     background-position: center;
     z-index: 1;
+}
+
+.contact-detail {
+    width: 320px;
+    height: 133px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
 }

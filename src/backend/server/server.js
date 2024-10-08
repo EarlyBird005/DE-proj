@@ -27,7 +27,7 @@ const playgroundDetails = [
         address: '123 Sunshine St, Green City',
         timing: '6 AM - 10 PM',
         contact: '(766) 876-7819',
-        img: 'https://example.com/sunny-park.jpg'
+        img: '../../../public/images/13.png'
     },
     {
         id: 2,
