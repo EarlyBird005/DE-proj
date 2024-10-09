@@ -73,8 +73,10 @@ textarea {
     align-self: baseline;
 }
 .container-card {
+    width: 75%;
     position: relative;
     z-index: 2;
+    left: 170px;
 }
 
 .div-card::before {
@@ -95,4 +97,7 @@ textarea {
     text-align: center;
     align-content: center;
     border-radius: 10px;
+    background-image: url("../../../public/images/bg-about-card.jpg");
+    background-position: center;
+    color: rgb(152, 150, 150);
 }

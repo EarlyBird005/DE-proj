@@ -19,15 +19,17 @@ main {
     gap: 7px 0px;
     flex-direction: column;
 }
-
 .pg-img {
     height: 140px;
     border-radius: inherit;
 }
-
+.pg-address{
+    width : 50px;
+}
 .pg-address, .pg-timing, .pg-contact {
     text-align: left;
     margin-left: 10px;
+    
 }
 
 .pg-address p {

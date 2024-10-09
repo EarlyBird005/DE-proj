@@ -1,0 +1,46 @@
+/* service */
+
+.main {
+    flex-direction: column;
+}
+
+#services-container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background: url();
+    font-family: "Vollkorn", serif;
+
+}
+#services{
+    margin: 30px;
+    margin-bottom: 64px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 10px 30px;
+    margin: 10px 15px;
+    border-radius:30px;
+    background-color:#c5c098;
+}
+#services .box img{
+    height: 150px;
+    width: 210px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+.h-primary{
+    font-size:2.8rem;
+    padding: 12px;
+    font-family: "Vollkorn", serif;
+}
+.h-secondry{
+    font-size: 2.0rem;
+    padding:8px;
+    font-family: "Vollkorn", serif;
+}
+.box p{
+    font-family: "Oswald", sans-serif; 
+}
