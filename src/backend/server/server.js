@@ -107,71 +107,64 @@ const playgroundDetails = [
     {
         id: 1,
         name: 'Dimond Villa',
-        address: 'Nigam Nagar,TP 44, Chandkheda',
+        address: 'Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424',
         timing: '6 AM - 10 PM'
         // img: '../../../public/images/bg-sea.png'
     },
     {
         id: 2,
         name: 'Railway colony Ground',
-        address: 'Railway colony, Sabarmati',
+        address: 'Railway Colony, Sabarmati, Ahmedabad, Gujarat 380019',
         timing: '7 AM - 8 PM'
         // img: '../../../public/images/bg-sea.png'
     },
     {
         id: 3,
         name: 'H.L. Ground',
-        address: 'Vasant Vihar, Navrangpura',
+        address: 'Vasant Vihar, Navrangpura, Ahmedabad, Gujarat 380009',
         timing: '8 AM - 9 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 4,
-        name: 'St Xaviers Ground',
-        address: 'Gulbai Tekra',
-        timing: '5 AM - 10 PM'
+        name: 'AMC Garden',
+        address: 'Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424',
+        timing: '5 AM - 9 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 5,
-        name: 'Pramukh Sports Ground',
-        address: 'Mehsana Highway Road , Adalaj',
+        name: 'Devi Public Park',
+        address: 'Opposite Parsh Nagar, Parshwanath Nagar, BLH Janta Nagar, Chandkheda, Ahmedabad, Gujarat 382424',
         timing: '6 AM - 9 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 6,
         name: 'Tragad Cricket Ground',
-        address: 'Tragad Gam',
+        address: 'Tragad, Gujarat 382470',
         timing: '7 AM - 7 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 7,
-        name: 'Aurora Grounds',
-        address: '404 Aurora St, Blue City',
+        name: 'Children Park',
+        address: '11, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424',
         timing: '5 AM - 9 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 8,
-        name: 'Nebula Park',
+        name: 'Nirma Vidyavihar',
         address: '505 Nebula Dr, Blue City',
         timing: '6 AM - 8 PM'
         // img: '../../../public/images/card-img.png'
     },
     {
         id: 9,
-        name: 'Meteor Fields',
-        address: '606 Meteor St, Blue City',
+        name: 'SGVP Cricket Ground',
+        address: 'SGVP Cricket Ground, SGVP Campus,, Nr. SGVP circle, Chharodi, Ahmedabad, Gujarat 382481',
         timing: '7 AM - 9 PM'
-        // img: '../../../public/images/card-img.png'
-    },
-    {
-        id: 10,
-        name: 'Cosmos Grounds',
-        address: '707 Cosmos Ave, Blue City',
-        timing: '8 AM - 8 PM'
         // img: '../../../public/images/card-img.png'
     }
 ];

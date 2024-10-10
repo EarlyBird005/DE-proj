@@ -1,0 +1,106 @@
+
+
+/* Header Section... */
+body{
+    background: url('../background.jpg');
+    
+}
+header{
+    position: fixed;
+    top:0;
+    font-family: "Oswald", sans-serif; 
+    left:0;
+    width:100%;
+    padding:20px 30px;
+    display: flex;
+    z-index: 99;
+}
+/* Logo.. */
+.logo{
+    font-size: 2em;
+    color:#080808;
+    /* user-select: none; */
+    float: left;
+}
+
+/* Navigation bar... */
+.navbar{
+    margin-left: 800px;
+}
+.navbar a{
+    position: relative;
+    font-size: 1.2em;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navbar a::after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height:3px;
+    background:#000000;
+    border-radius: 5px;
+    left:0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: center;
+}
+
+.navbar a:hover::after{
+    transform: scaleX(1);
+
+}
+
+/* service */
+
+#services-container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background: url();
+    font-family: "Vollkorn", serif;
+
+}
+#services{
+    margin: 30px;
+    margin-bottom: 64px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 10px 30px;
+    margin: 10px 15px;
+    border-radius:30px;
+    background-color:rgb(239, 241, 239);
+}
+#services .box img{
+    height: 150px;
+    width: 210px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+.h-primary{
+    font-size:2.8rem;
+    padding:60px 12px 12px 12px;
+    font-family: "Vollkorn", serif;
+    text-shadow: 3px 3px 6px wheat;
+}
+.h-secondry{
+    font-size: 2.0rem;
+    padding:8px;
+    font-family: "Vollkorn", serif;
+}
+.box p{
+    font-family: "Oswald", sans-serif; 
+}
+
+/* 
+footer{
+    background: #000000;
+    color: aliceblue;
+    padding:9px 20px;
+} */

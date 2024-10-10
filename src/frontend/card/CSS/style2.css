@@ -1,0 +1,23 @@
+
+.box{
+            
+    float:left;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    font-family:"Playfair Display", serif;
+    font-size:2rem;
+}
+
+iframe{
+    float:right;
+    height:100vh;
+}
+img{
+    height:400px;
+    width:838px;
+    float: bottom;  
+    
+    
+}
+
